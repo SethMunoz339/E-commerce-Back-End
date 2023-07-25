@@ -5,9 +5,9 @@ const { Category, Product } = require('../../models');
 
 router.get('/categories', async (req, res) => {
   try{
-    const categoryData = await Category.findAll();
-  
-    return res.json(categoryData);}
+    const categoriesData = await Category.findAll();
+  console.log(categoriesData)
+    return res.json(categoriesData);}
     catch(err){
       console.log(err)
       return res.json(err)
@@ -22,6 +22,7 @@ router.get('/categories:id', async (req, res) => {
       }
     }
   ).then((categoryData) => {
+    console.log(categoryData);
    return res.json(categoryData);
   });
 
