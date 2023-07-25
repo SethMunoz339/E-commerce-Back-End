@@ -17,7 +17,7 @@ Product.init(
       autoIncrement: true,
     },
     price: {
-      type: Datatypes.DECIMAL,
+      type: DataTypes.DECIMAL,
       allowNull: false,
     },
     stock: {
