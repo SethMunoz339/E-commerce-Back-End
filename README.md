@@ -8,6 +8,10 @@
 
 This application creates a back-end database to track inventory for an internet retail company.
 
+## Walkthrough Video
+
+
+
 ## Table of Contents
 
 - [Installation](#installation)
