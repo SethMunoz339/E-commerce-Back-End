@@ -10,7 +10,7 @@ This application creates a back-end database to track inventory for an internet 
 
 ## Walkthrough Video
 
-
+https://watch.screencastify.com/v/qZYDYb6YYmhlFOw9BWiZ
 
 ## Table of Contents
 
